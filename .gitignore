@@ -1,0 +1,25 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Artefactos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Builds y empaquetado
+build/
+dist/
+*.spec
+EliminaMuletillas_Portable/
+*.zip
+
+# Datos generados en ejecución
+uploads/
+exports/
+projects.db
+launcher.log
+
+# Runtime embebido / dependencias binarias
+python311_embed.zip
+ca_bundle.pem
